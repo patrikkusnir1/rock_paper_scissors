@@ -1,3 +1,8 @@
+  let humanScore = 0;
+  let computerScore = 0;
+  let currentRound = 1;
+
+
 function getComputerChoice() {
   const choices = ["rock", "paper", "scissors"];
   const randomIndex = Math.floor(Math.random() * 3);
@@ -41,9 +46,7 @@ function playRound(computerChoice, humanChoice) {
 }
 
 function playGame() {
-  let humanScore = 0;
-  let computerScore = 0;
-  let currentRound = 1;
+
 
   // reset scores
   if (currentRound == 1) {
