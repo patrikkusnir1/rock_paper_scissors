@@ -94,7 +94,7 @@ function playGame() {
        } else if (computerScore > humanScore) {
         finalResultPara.textContent = "You lose!"
       } else {
-        finalResultPara.textContent = "You lose!"
+        finalResultPara.textContent = "Draw!"
       }
 
       div.appendChild(finalResultPara);
